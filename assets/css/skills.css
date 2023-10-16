@@ -1,0 +1,54 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .habilidades-profissionais {
+    margin-bottom: 16px;
+}
+
+.skills .habilidades-profissionais ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills .habilidades-profissionais ul li img {
+    max-width: 30px;
+    margin: 0 .5rem;
+}
+
+.skills .habilidades-pessoais ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .habilidades-pessoais ul li {
+    margin-left: 2rem;
+    padding: .5rem;
+    font-size: .9rem;
+}
+
+.skills .skills-title {
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .skills .habilidades-profissionais {
+        margin-bottom: 0;
+    }
+}

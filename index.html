@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Flávio César</title>
+
+    <!-- font do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    />
+
+    <!-- normalize via CDN -->
+    <!-- https://cdnjs.com/libraries/normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/assets/css/acordeon.css" />
+    <link rel="stylesheet" href="/assets/css/experience.css" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/languages.css" />
+    <link rel="stylesheet" href="/assets/css/portfolio.css" />
+    <link rel="stylesheet" href="/assets/css/skills.css" />
+
+    <script src="/assets/js/acordeon.js" defer></script>
+    <script src="/assets/js/api.js" defer></script>
+    <script src="/assets/js/main.js" defer></script>
+
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <img
+          class="photo profile.photo"
+          src="/assets/img/fotopessoal.jpeg"
+          alt="Foto do Flávio C M Bezerra"
+        />
+        <h1 class="title">
+          Olá,<br />
+          eu sou o <span class="profile.name">Flávio</span>.
+        </h1>
+        <div class="information">
+          <p class="job"><span class="profile.job">Junior Developer</span></p>
+          <p class="location"><span class="profile.location">Brasília - DF</span></p>
+          <p class="whatsapp"><span class="profile.phone">+55 61 992026954</span></p>
+          <p class="email"><span class="profile.email">flavio.cmb@gmail.com</span></p>
+        </div>
+      </header>
+      <section class="acordeon">
+        <button class="trigger" type="button">Skills</button>
+        <div class="content">
+          <div class="skills">
+            <section class="habilidades-profissionais">
+              <p class="skills-title">Habilidades Profissionais:</p>
+              <ul>
+                <li>
+                  <img src="/assets/img/icons/html.svg" alt="HTML" title="HTML">
+                  <img src="/assets/img/icons/css.svg" alt="CSS" title="CSS">
+                  <img src="/assets/img/icons/javascript.svg" alt="JavaScript" title="JavaScript">
+                </li>
+              </ul>
+            </section>
+            <section class="habilidades-pessoais">
+              <p class="skills-title">Habilidades Pessoais:</p>
+              <ul>
+                <li>Organização</li>
+                <li>Consistência</li>
+                <li>Perfil Evolutivo</li>
+                <li>Trabalho em equipe</li>
+                <li>Facilidade de comunicação</li>
+                <li>Comprometimento com resultados</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">Idiomas</button>
+        <div class="content">
+          <ul class="languages">
+            <li>Português</li>
+            <li>Inglês</li>
+            <li>Alemão</li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">Portfolio</button>
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <span class="portfolio-title github">Criando um e-commerce de livros com HTML, CSS e Javascript</span>
+              <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button">Experiência Profissional</button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <p class="experience-title">Técnico de Suporte / iPlace</p>
+              <p class="experience-period">02/2011 – 05/2015</p>
+              <p class="experience-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quos dolor officiis dicta repellendus eligendi molestiae 
+                natus soluta non ratione maiores.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
