@@ -40,21 +40,23 @@
     <main>
       <header class="header">
         <img
-          class="photo profile.photo"
+          class="photo"
+          id="profile.photo"
           src="/assets/img/fotopessoal.jpeg"
           alt="Foto do Flávio C M Bezerra"
         />
         <h1 class="title">
           Olá,<br />
-          eu sou o <span class="profile.name">Flávio</span>.
+          eu sou o <span id="profile.name">Flávio</span>.
         </h1>
         <div class="information">
-          <p class="job"><span class="profile.job">Junior Developer</span></p>
-          <p class="location"><span class="profile.location">Brasília - DF</span></p>
-          <p class="whatsapp"><span class="profile.phone">+55 61 992026954</span></p>
-          <p class="email"><span class="profile.email">flavio.cmb@gmail.com</span></p>
+          <p class="job" id="profile.job">Junior Developer</span></p>
+          <p class="location" id="profile.location">Brasília - DF</p>
+          <p class="whatsapp" id="profile.phone">+55 61 992026954</p>
+          <p class="email" id="profile.email">flavio.cmb@gmail.com</p>
         </div>
       </header>
+      <!-- <section class="acordeon open"> -->
       <section class="acordeon">
         <button class="trigger" type="button">Skills</button>
         <div class="content">
@@ -71,13 +73,8 @@
             </section>
             <section class="habilidades-pessoais">
               <p class="skills-title">Habilidades Pessoais:</p>
-              <ul>
-                <li>Organização</li>
-                <li>Consistência</li>
-                <li>Perfil Evolutivo</li>
-                <li>Trabalho em equipe</li>
-                <li>Facilidade de comunicação</li>
-                <li>Comprometimento com resultados</li>
+              <ul id="profile.skills.softskills">
+                <li>Carregando...</li>
               </ul>
             </section>
           </div>
@@ -98,7 +95,7 @@
         <div class="content">
           <ul class="portfolio">
             <li>
-              <span class="portfolio-title github">Criando um e-commerce de livros com HTML, CSS e Javascript</span>
+              <span class="portfolio-title github">E-commerce de livros front-end com HTML, CSS e Javascript</span>
               <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
             </li>
           </ul>
