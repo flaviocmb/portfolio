@@ -23,10 +23,10 @@
     height: .825rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/check.svg');
+    background-image: url('./assets/img/icons/check.svg');
     margin-right: .25rem;
 }
 
 .languages li:nth-child(3)::before {
-    background-image: url('/assets/img/icons/check-yellow.svg');
+    background-image: url('./assets/img/icons/check-yellow.svg');
 }
