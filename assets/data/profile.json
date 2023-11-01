@@ -79,12 +79,16 @@
   ],
   "certification": [
     {
-      "nome": "Certification 1",
-      "url": "https://www.google.com.br"
+      "name": "ITIL 4 ® Foundation",
+      "url": "https://www.credly.com/badges/8be79f18-7846-46e5-afd0-eba16baacc76/public_url"
     },
     {
-      "nome": "Certification 1",
-      "url": "https://www.google.com.br"
+      "name": "AWS Certified Cloud Practitioner",
+      "url": "https://www.credly.com/badges/ddf22644-d2b7-490c-950d-6f91e1ad4e74/public_url"
+    },
+    {
+      "name": "Exame MD-100: Windows 10/11 client",
+      "url": "https://drive.google.com/file/d/1_EM5szAFOBS5H5QNQnKBOPS5lni-D_tc/view?usp=sharing"
     }
   ]
 }
