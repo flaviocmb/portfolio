@@ -75,7 +75,7 @@ function updateProExperience(profileData) {
                 <p class="experience-description">${experience.description}</p>
             </li>
         `;
-    })
+    }).join('')
 }
 
 //função imediatamente invocada
