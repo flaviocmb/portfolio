@@ -67,7 +67,6 @@ function updatePortfolio(profileData) {
             </li>
         `;
     }).join('');
-    console.log(portfolio.querySelectorAll(".portfolio-title").innerText);
 }
 
 function updateProExperience(profileData) {
@@ -83,6 +82,19 @@ function updateProExperience(profileData) {
     }).join('')
 }
 
+function updateCertification(profileData) {
+    const certification = document.getElementById('profile.certification');
+    console.log(certification);
+    certification.innerHTML = profileData.certification.map(cert => {
+      return `
+            <li>
+                <p class="certification-title">${cert.nome}</p>
+                <a href="${cert.url}" target="_blank">${cert.url}</a>
+            </li>
+      `;
+    }).join('');
+}
+
 //função imediatamente invocada
 (async () => {
   const profileData = await fetchProfileData();
@@ -92,4 +104,5 @@ function updateProExperience(profileData) {
   updateLanguages(profileData);
   updatePortfolio(profileData);
   updateProExperience(profileData);
+  updateCertification(profileData);
 })();
