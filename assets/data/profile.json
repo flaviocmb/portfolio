@@ -76,5 +76,15 @@
       "period": "12/2007 – 11/2009",
       "description": "Serviços de montagem, configuração e principalmente manutenção de centenas de computadores e notebooks. Cabeamento estruturado e configuração de redes simples de computadores. Configuração de modems e roteadores. Windows e outros softwares/ferramentas de suporte. Internet. Suporte ao cliente tirando dúvidas no laboratório ou via telefone."
     }
+  ],
+  "certification": [
+    {
+      "nome": "Certification 1",
+      "url": "https://www.google.com.br"
+    },
+    {
+      "nome": "Certification 1",
+      "url": "https://www.google.com.br"
+    }
   ]
 }
