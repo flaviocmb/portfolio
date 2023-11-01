@@ -60,9 +60,14 @@ function updatePortfolio(profileData) {
                   project.github ? 'github' : ""
                 }">${project.name}</span>
                 <a href="${project.url}" target="_blank">${project.url}</a>
+                <div>
+                  <a href="${project.url2 ? project.url2 : ''}" target="_blank">${project.url2 ? project.url2 : ''}</a>
+                  <span id="texto-adicional">${project.textoAdicional ? project.textoAdicional : ''}</span>
+                </div>
             </li>
         `;
     }).join('');
+    console.log(portfolio.querySelectorAll(".portfolio-title").innerText);
 }
 
 function updateProExperience(profileData) {

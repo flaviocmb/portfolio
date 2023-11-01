@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .portfolio li {
@@ -30,7 +30,6 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-image: url('./assets/img/icons/github.svg'); */
     background-image: url('../img/icons/github.svg');
     margin-right: .25rem;
 }
@@ -45,4 +44,11 @@
 
 .portfolio li a:hover {
     text-decoration: underline;
+}
+
+#texto-adicional {
+    color: #dbd6d6;
+    font-size: .9rem;
+    display: inline-block;
+    width: fit-content;
 }
