@@ -37,15 +37,35 @@
   "portfolio": [
     {
       "name": "E-commerce de livros front-end com HTML, CSS e Javascript",
-      "url": "https://www.google.com.br",
+      "url": "http://www.livrariabook.com.s3-website-sa-east-1.amazonaws.com/",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Técnico de Suporte / iPlace",
+      "name": "Suporte Técnico / Empresa: iPlace",
       "period": "02/2011 – 05/2015",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor officiis dicta repellendus eligendi molestiae natus soluta non ratione maiores."
+      "description": "Auxílio no atendimento ao cliente. Consultoria dos produtos e serviços Apple. Trabalho de valor administrativo: métricas e auditorias, controle de estoque, relatórios, uso do sistema de suporte da Apple e reuniões de supervisão técnica. Manutenção de todos os produtos Apple."
+    },
+    {
+      "name": "Desenvolvimento de Automação / Empresa: Evolbe do Brasil Tecnologia da Informação",
+      "period": "08/2010 – 11/2010",
+      "description": "Desenvolvimento de scripts de automação com o uso da ferramenta QTP – Quick Test Professional e auxílio de gerenciamento de casos de teste com o Quality Center. Nesse rápido período de estágio, eu estava aprendendo que o foco era na qualidade de software com o uso de técnicas para teste de regressão."
+    },
+    {
+      "name": "Suporte Técnico / Empresa: Politec Global IT Services",
+      "period": "07/2010 – 08/2010 (Contrato Temporário)",
+      "description": "Migração de configurações em alta demanda para computadores novos. Backup de configurações pessoais, por exemplo e-mail, e suporte ao cliente em meio às configurações realizadas. Instalação e inclusão de computadores em rede com impressora e domínio de usuários. Cliente CNPq."
+    },
+    {
+      "name": "Suporte Técnico / Empresa: Som & Letras",
+      "period": "12/2009 – 06/2010 (Estágio)",
+      "description": "Resolução de qualquer problema pertinente relativo à informática. Manutenção em computadores, cabeamento de redes e servidor Linux. Criação e manutenção de páginas HTML e banco de dados."
+    },
+    {
+      "name": "Suporte Técnico / Empresa: Microdidata Informática",
+      "period": "12/2007 – 11/2009",
+      "description": "Serviços de montagem, configuração e principalmente manutenção de centenas de computadores e notebooks. Cabeamento estruturado e configuração de redes simples de computadores. Configuração de modems e roteadores. Windows e outros softwares/ferramentas de suporte. Internet. Suporte ao cliente tirando dúvidas no laboratório ou via telefone."
     }
   ]
 }
