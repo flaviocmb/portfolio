@@ -88,7 +88,7 @@ function updateCertification(profileData) {
     certification.innerHTML = profileData.certification.map(cert => {
       return `
             <li>
-                <p class="certification-title">${cert.nome}</p>
+                <p class="certification-title">${cert.name}</p>
                 <a href="${cert.url}" target="_blank">${cert.url}</a>
             </li>
       `;
