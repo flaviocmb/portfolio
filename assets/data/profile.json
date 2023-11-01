@@ -37,8 +37,13 @@
   "portfolio": [
     {
       "name": "E-commerce de livros front-end com HTML, CSS e Javascript",
-      "url": "http://www.livrariabook.com.s3-website-sa-east-1.amazonaws.com/",
+      "url": "https://github.com/lauandesc/Grupo7_projetocolaborativo",
       "github": true
+    },
+    {
+      "name": "E-commerce de livros front-end com HTML, CSS e Javascript (Deploy do projeto em um bucket S3 na Amazon)",
+      "url": "http://www.livrariabook.com.s3-website-sa-east-1.amazonaws.com/",
+      "github": false
     }
   ],
   "professionalExperience": [
