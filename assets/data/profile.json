@@ -45,7 +45,7 @@
     {
       "name": "E-commerce de livros front-end com HTML, CSS e Javascript (contruído em grupo durante o curso de Front-end)",
       "url": "https://github.com/lauandesc/Grupo7_projetocolaborativo",
-      "url2": "http://www.livrariabook.com.s3-website-sa-east-1.amazonaws.com/",
+      "url2": "http://www.livrariabook.com.s3-website-sa-east-1.amazonaws.com",
       "textoAdicional": "(Deploy do projeto em um bucket S3 na Amazon)",
       "github": true
     }
