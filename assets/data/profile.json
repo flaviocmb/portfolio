@@ -18,6 +18,10 @@
       {
         "name": "JavaScript",
         "src": "https://raw.githubusercontent.com/flaviocmb/portfolio/main/assets/data/img/javascript.svg"
+      },
+      {
+        "name": "Figma",
+        "src": "https://raw.githubusercontent.com/flaviocmb/portfolio/main/assets/data/img/figma.svg"
       }
     ],
     "softSkills": [
